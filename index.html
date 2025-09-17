@@ -1,23 +1,72 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Embed HandyBox (Responsivo)</title>
+
+  <title>Handybox - lavanderia que cabe no seu prédio.</title>
+
+  <!-- SEO -->
+  <meta name="description" content="A Handybox é a lavanderia que cabe no seu prédio: lockers inteligentes onde o morador deixa as roupas, nós coletamos, lavamos e devolvemos em 24h. Praticidade, comodidade e tecnologia para o seu condomínio.">
+  <meta name="keywords" content="lavanderia em condomínio, lavanderia inteligente, lockers lavanderia, serviço de lavanderia 24h, lavanderia prática prédio, lavanderia condomínios Brasil">
+  <link rel="canonical" href="https://usehandybox.com.br">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Handybox">
+  <meta property="og:title" content="Handybox - lavanderia que cabe no seu prédio.">
+  <meta property="og:description" content="Lavanderia prática para condomínios com lockers inteligentes: você deixa, a Handybox coleta, lava e devolve em 24 horas.">
+  <meta property="og:url" content="https://usehandybox.com.br">
+  <meta property="og:image" content="https://handybox-unboxing-joy.lovable.app/assets/handybox-logo-2-cLdnhokZ.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Handybox - lavanderia que cabe no seu prédio.">
+  <meta name="twitter:description" content="Lockers inteligentes no condomínio: deixe suas roupas, a Handybox coleta, lava e entrega em 24 horas.">
+  <meta name="twitter:image" content="https://handybox-unboxing-joy.lovable.app/assets/handybox-logo-2-cLdnhokZ.png">
+
+  <!-- Robots -->
+  <meta name="robots" content="index,follow">
+
+  <!-- Performance -->
+  <link rel="dns-prefetch" href="https://handybox-unboxing-joy.lovable.app">
+  <link rel="preconnect" href="https://handybox-unboxing-joy.lovable.app" crossorigin>
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#000000">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Handybox",
+    "serviceType": "Lavanderia inteligente para condomínios",
+    "provider": {
+      "@type": "Organization",
+      "name": "Handybox"
+    },
+    "areaServed": "Brasil",
+    "description": "Serviço de lavanderia com lockers inteligentes instalados no prédio: o morador deixa as roupas, a Handybox coleta, lava e devolve em 24 horas.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Handybox"
+    }
+  }
+  </script>
+
   <style>
-    /* Zera margens e garante que a área útil preencha toda a tela */
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
-      background: #000; /* evita flash branco durante carregamento */
+      background: #000;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, sans-serif;
     }
-    /* Usa viewport dinâmica para cobrir a área visível em celulares */
-    body {
-      min-height: 100dvh;
-    }
-    /* Iframe ocupa a tela toda, inclusive sob barras de sistema (iOS notch) */
+    body { min-height: 100dvh; }
     .embed {
       position: fixed;
       inset: 0;
@@ -25,6 +74,7 @@
       height: 100%;
       border: 0;
       display: block;
+      background: #000;
     }
   </style>
 </head>
@@ -32,10 +82,18 @@
   <iframe
     class="embed"
     src="https://handybox-unboxing-joy.lovable.app/"
-    title="HandyBox Unboxing Joy"
+    title="Handybox — lavanderia para condomínios"
     allowfullscreen
     loading="eager"
     referrerpolicy="no-referrer"
   ></iframe>
+
+  <noscript>
+    <div style="padding:16px;background:#fff;color:#111;">
+      <h2>Handybox - lavanderia que cabe no seu prédio.</h2>
+      <p>Com a Handybox, você tem lockers mágicos que lavam a roupa para você. Basta deixar suas roupas, e nós coletamos, lavamos e devolvemos em 24 horas.</p>
+      <p><a href="https://handybox-unboxing-joy.lovable.app/" rel="noopener">Acesse aqui</a>.</p>
+    </div>
+  </noscript>
 </body>
 </html>
